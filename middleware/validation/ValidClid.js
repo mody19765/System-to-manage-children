@@ -4,8 +4,7 @@ let METHOD = ["body", "params"]
 let Schem = {
     body: Joi.object({
         User_name: Joi.string().required().min(5).max(25),
-        password: Joi.string().required()
-
+        password: Joi.string().required().pattern(/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/)
     }),
     params: Joi.object({
         id: Joi.string()
