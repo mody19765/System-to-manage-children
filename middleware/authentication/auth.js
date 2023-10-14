@@ -1,10 +1,5 @@
 import  Jwt  from "jsonwebtoken";
-
-
-
-
 const auth=async(req,res,next)=>{
-
     const token=req.header('token')
     Jwt.verify(token,"Hacking",async(err,decoded)=>{
 
