@@ -42,5 +42,5 @@ The base URL for all API requests is:
 ##  Main Endpoints
 |Endpoint|Description|
 |-|-|
-|[/parent](parent.md)|This endpoint is designed for parent-related operations|
-|[/child](child.md)|This endpoint is intended for child-related operations|
+|[/parent](/Documentation/parent.md)|This endpoint is designed for parent-related operations|
+|[/child](/Documentation/child.md)|This endpoint is intended for child-related operations|
