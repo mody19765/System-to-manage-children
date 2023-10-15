@@ -7,7 +7,6 @@
 developing a system that caters to children's needs, such as learning children's programming. The system will have two user modes: parent mode and child mode.
 
 **Parent Mode:**
-
 Parents can perform the following actions:
 - Register for a parent account
 - Log in to their parent account
@@ -27,9 +26,7 @@ Children can perform the following actions:
 
 ***Notes:***
 - Parent passwords must be strong.
-- You do not need to create a "courses" table and foreign keys in the child table; just include a course name.
 - Usernames for children with the same parent must be unique, so children must log in with their usernames and their parent's username.
-- For added security, implement password encryption using cryptographic algorithms such as bcrypt or Argon2. This will help protect user passwords and demonstrate knowledge of encryption algorithms.
 
 This document provides an overview of the API along with essential information about its endpoints, base URL, and main operations.
 
